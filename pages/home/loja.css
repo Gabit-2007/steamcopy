@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 1024px;
+    display: block;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    column-gap: 200px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.GTA{
+    width: 672px;
+}
+
+.imgGrande{
+    width: 497px;
+}
+
+.imgPequena{
+    width: 220px;
+}
+
+.Quadro-grandeA{
+    display: flex;
+    padding: 10px;
+}
+
+.preco{
+    align-items: end;
+    align-content: end;
+    padding: 10px;
+}
+
+.Quadros{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.Quadrinhos{
+    display: flex;
+    padding: 10px;
+    column-gap: 15px;
+}
+
+.reverso{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.quadrosA{
+    display: flex;
+}
+
