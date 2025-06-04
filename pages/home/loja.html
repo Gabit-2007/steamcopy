@@ -1,4 +1,5 @@
 <html>
+    
     <head>
         <link rel="stylesheet" href="/pages/home/loja.css">
     </head>
@@ -6,9 +7,11 @@
         <header>
             <img src="/img/steam.png" width="150px">
             <nav>
-                <a href="/pages/home/loja.html">Loja</a>
-                <a href="/pages/catalogo/categorias.html">Categorias</a>
-                <a href="/pages/biblioteca/biblioteca.html">Biblioteca</a>
+            <ul>
+                <li><a href="/pages/home/loja.html">Loja</a></li>
+                <li><a href="/pages/catalogo/categorias.html">Categorias</a></li>
+                <li><a href="/pages/biblioteca/biblioteca.html">Biblioteca</a></li>
+              </ul>
             </nav>
         </header>
         <main>
@@ -18,7 +21,7 @@
                 <div class="preco">
                 <h3>GTA VI</h3>
                 <p>R$709,90</p>
-                <button><a href="">Comprar</a></button>
+                <button type="button" onclick="alert('Adicionado ao Carrinho!!')">Comprar</button>
                 </div>
             </div>
             <h2>Ofertas Especiais</h2>
@@ -64,7 +67,7 @@
             </div>
         </main>
         <footer>
-            <button><a href="https://store.steampowered.com/about/?snr=1_4_4__global-header"></a></button>
+            <button class="Botão"><a href="https://store.steampowered.com/about/?snr=1_4_4__global-header">Baixar Stream</a></button>
         </footer>
     </body>
 </html>

@@ -1,12 +1,14 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
     width: 1024px;
     display: block;
     margin: auto;
+    background-color:#171d25;
 }
 
 header{
@@ -14,6 +16,7 @@ header{
     align-items: center;
     margin: 10px;
     column-gap: 200px;
+    background-color: rgba(0, 0, 0, 0.616);
 }
 
 nav{
@@ -21,6 +24,41 @@ nav{
     align-items: center;
     justify-content: center;
     column-gap: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #233347e7;
+    position: fixed;
+    top: 0;
+    width: 1024px;
+    text-align: center;
+
+}
+  
+li{
+    float: left;
+}
+  
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover{
+    background-color: #ffffff;
+    color:#171d25
+}
+
+.active{
+    background-color: rgb(33, 160, 29);
+    color: white;
 }
 
 .GTA{
@@ -33,17 +71,21 @@ nav{
 
 .imgPequena{
     width: 220px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .Quadro-grandeA{
     display: flex;
     padding: 10px;
+    padding-bottom: 20px;
 }
 
 .preco{
     align-items: end;
     align-content: end;
     padding: 10px;
+    padding-bottom: 30px;
 }
 
 .Quadros{
@@ -67,3 +109,48 @@ nav{
     display: flex;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+    padding-bottom: 20px;
+}
+
+button{
+    background-color: rgb(33, 160, 29);
+    color: white;
+    width: 342px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.botão{
+    height: 50px;
+    font-size: 20px;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    margin: 20px;
+}
