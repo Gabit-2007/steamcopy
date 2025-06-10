@@ -93,6 +93,15 @@ button:hover{
     width: 300px;
 }
 
+.botão a:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+a{
+    text-decoration: none;
+}
+
 footer{
     display: flex;
     justify-content: center;
