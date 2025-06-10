@@ -65,26 +65,80 @@ nav{
     color:#171d25
 }
 
+.menu-faketrigger{
+    opacity: 0;
+}
+
 main{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0%;
+}
+
+.coluna{
+    display: block;
+    margin: 15px;
 }
 
 .secao{
-    display: block;
-    width: 200px;
-    margin: 10px;
+    display: flex;
+    width: 300px;
+    margin: 5px;
+    flex-wrap: wrap;
 }
 
 .lista{
     display: list-item;
     flex-direction: column;
+    color: #ffffff;
+    margin-left: 30px;
 }
 
 a{
     display: block;
     text-decoration: none;
     color: #ffffff;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px;
+}
+
+button{
+    background-color: rgb(33, 160, 29);
+    color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+button:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.botão{
+    height: 50px;
+    font-size: 20px;
+    width: 300px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    margin: 20px;
+    background-color: #090c0f;
+    width: 100%;
 }
 
 @media (max-width: 600px) {
@@ -177,12 +231,11 @@ a{
         
     }
     
-    .menu ul a{
-        color: #171d25;
-        display: block;
+    .menu .menua a{
+        color:#171d25;
     }
 
-    .menu a:hover{
+    .menu .menua a:hover{
     background-color: #171d25;
     color:#ffffff;
     }
@@ -196,5 +249,16 @@ a{
     }
     .secao li{
         display: block;
+    }
+
+    .main{
+        display: block;
+    }
+
+    .lista{
+    display: list-item;
+    flex-direction: column;
+    color: #ffffff;
+    margin-left: 30px;
     }
 }

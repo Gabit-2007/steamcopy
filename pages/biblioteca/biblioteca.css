@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 1024px;
+    display: block;
+    margin: auto;
+    background-color:#171d25;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    column-gap: 70px;
+    background-color: rgba(0, 0, 0, 0.616);
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 30px;
+    margin: auto;
+    margin-left: 200px;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 10px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+
+}
+  
+.menu .menua{
+    float: left;
+    text-align: center;
+    align-self: center;
+}
+  
+.menu .menua a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
+}
+  
+.menu .menua:hover{
+    background-color: #ffffff;
+    color:#171d25
+}
+
+.menu-faketrigger{
+    display: hidden;
+}
+
+
+button{
+    background-color: rgb(33, 160, 29);
+    color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+button:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.botão{
+    height: 50px;
+    font-size: 20px;
+    width: 300px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    margin: 20px;
+    background-color: #090c0f;
+    width: 100%;
+}
+
+
+
+@media (max-width: 600px) {
+    body{
+    width: 496px;
+    display: block;
+    flex-direction: column;
+    margin: 0px;
+    background-color:#171d25;
+    }
+
+    .logo{
+        width: 150px;
+        padding-left: 10px;
+    }
+
+    header{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0px;
+    column-gap: 70px;
+    background-color: rgba(0, 0, 0, 0.616);
+    justify-content: center;
+    width: 100vh;
+    }
+
+    .menu .menu-faketrigger{
+        position: absolute;
+        z-index: 1000;
+        width: 35px;
+        height: 35px;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .menu .menu-lines{
+        position: absolute;
+        z-index: 999;
+        width: 35px;
+        height: 35px;
+    }
+
+    .menu .menu-lines span{
+        display: block;
+        width: 35px;
+        height: 5px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+        border-radius: 3px;
+        transition: all ease .2s;
+    }
+
+    .menu .menu-faketrigger:checked~.menu-lines span{
+        background-color: black;
+
+    }
+
+    .menu .menu-faketrigger:checked~.menu-lines span:nth-child(1) {
+        transform-origin: 0% 0%;
+        transform: rotate(45deg) scalex(1.25);
+    }
+    
+    .menu .menu-faketrigger:checked~.menu-lines span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu .menu-faketrigger:checked~.menu-lines span:nth-child(3) {
+        transform-origin: 0% 100%;
+        transform: rotate(-45deg) scaleX(1.25);
+    }
+
+    .menu ul{
+        position: absolute;
+        z-index: 998;
+        right: 0;
+        top: 0;
+        width: 160px;
+        height: 300px;
+        background-color: white;
+        margin-right: -300px;
+        transition: all ease .2s;
+    }
+
+    .menu .menu-faketrigger:checked~ul{
+        margin-right: 0;
+        height: 300px;
+        display: block;
+        padding-top: 80px;
+        
+    }
+    
+    .menu .menua a{
+        color: #171d25;
+        display: block;
+    }
+
+    .menu .menua:hover{
+    background-color: #171d25;
+    color:#ffffff;
+    }
+
+
+}

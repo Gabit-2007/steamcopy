@@ -159,11 +159,14 @@ button:hover{
 }
 
 footer{
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100px;
     margin: 20px;
+    background-color: #090c0f;
+    width: 100%;
 }
 
 @media (max-width: 600px) {
