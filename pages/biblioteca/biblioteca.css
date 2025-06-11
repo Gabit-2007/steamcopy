@@ -4,10 +4,15 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.logo{
+    width: 150px;
+}
+
 body{
     width: 1024px;
     display: block;
     margin: auto;
+    padding: auto;
     background-color:#171d25;
     justify-content: center;
     align-items: center;
@@ -60,15 +65,53 @@ nav{
     justify-content: center;
 }
   
-.menu .menua:hover{
+.menu li a:hover{
     background-color: #ffffff;
     color:#171d25
 }
 
 .menu-faketrigger{
-    display: hidden;
+    opacity: 0;
 }
 
+img{
+    width: 200px;
+}
+
+.jogo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: solid #ffffff 1px;
+    border-bottom: solid #ffffff 1px;
+}
+
+h1{
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+p{
+    color: #ffffff;
+}
+
+.preco a{
+    color: rgb(33, 160, 29);
+    text-decoration: none;
+}
+
+.preco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
 
 button{
     background-color: rgb(33, 160, 29);
@@ -79,8 +122,6 @@ button{
     text-align: center;
     cursor: pointer;
 }
-
-
 
 button:hover{
     background-color: white;
@@ -93,13 +134,18 @@ button:hover{
     width: 300px;
 }
 
-.botão a:hover{
+.botão:hover{
     background-color: white;
     color: rgba(0, 0, 0, 0.616);
 }
 
-a{
+button a{
     text-decoration: none;
+    color: #ffffff;
+}
+
+button a:hover{
+    color: #090c0f;
 }
 
 footer{
@@ -122,6 +168,7 @@ footer{
     flex-direction: column;
     margin: 0px;
     background-color:#171d25;
+    overflow-inline: hidden;
     }
 
     .logo{
@@ -210,7 +257,7 @@ footer{
         display: block;
     }
 
-    .menu .menua:hover{
+    .menu .menua a:hover{
     background-color: #171d25;
     color:#ffffff;
     }

@@ -60,7 +60,7 @@ nav{
     justify-content: center;
 }
   
-.menu .menua:hover{
+.menu li a:hover{
     background-color: #ffffff;
     color:#171d25
 }
@@ -130,6 +130,10 @@ button:hover{
     width: 300px;
 }
 
+button a:hover{
+    color: #090c0f;
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -148,6 +152,7 @@ footer{
     flex-direction: column;
     margin: 0px;
     background-color:#171d25;
+    overflow-inline: hidden;
     }
 
     .logo{

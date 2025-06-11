@@ -149,13 +149,17 @@ button{
 
 button:hover{
     background-color: white;
-    color: rgba(0, 0, 0, 0.616);
+    color: #090c0f;
 }
 
 .botão{
     height: 50px;
     font-size: 20px;
     width: 300px;
+}
+
+button a:hover{
+    color: #090c0f;
 }
 
 footer{
@@ -176,6 +180,7 @@ footer{
     flex-direction: column;
     margin: 0px;
     background-color:#171d25;
+    overflow-inline: hidden;
     }
 
     .logo{
