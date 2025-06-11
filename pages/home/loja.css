@@ -173,7 +173,7 @@ footer{
     width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 769px) {
     body{
     width: 496px;
     display: block;
