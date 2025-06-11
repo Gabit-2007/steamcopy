@@ -147,7 +147,6 @@ footer{
 
 @media (max-width: 769px) {
     body{
-    width: 496px;
     display: block;
     flex-direction: column;
     margin: 10px;
