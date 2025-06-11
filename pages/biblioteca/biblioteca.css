@@ -111,6 +111,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: end;
+    padding: 5px;
 }
 
 button{
@@ -163,7 +164,6 @@ footer{
 
 @media (max-width: 769px) {
     body{
-    width: 496px;
     display: block;
     flex-direction: column;
     margin: 10px;
