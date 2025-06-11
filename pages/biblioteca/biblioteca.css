@@ -166,7 +166,7 @@ footer{
     width: 496px;
     display: block;
     flex-direction: column;
-    margin: 0px;
+    margin: 10px;
     background-color:#171d25;
     overflow-inline: hidden;
     width: 100%;
