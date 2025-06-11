@@ -164,7 +164,9 @@ footer{
 
 @media (max-width: 769px) {
     body{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin: 10px;
     background-color:#171d25;
