@@ -76,6 +76,7 @@ nav{
 
 img{
     width: 200px;
+    border-radius: 12px;
 }
 
 .jogo{
@@ -83,8 +84,9 @@ img{
     width: 100%;
     justify-content: space-between;
     margin: 10px;
-    border-top: solid #ffffff 1px;
-    border-bottom: solid #ffffff 1px;
+    background-color: #2a3442;
+    border-radius: 12px;
+    padding: 10px;
 }
 
 h1{
@@ -117,6 +119,7 @@ p{
 button{
     background-color: rgb(33, 160, 29);
     color: white;
+    border: none;
     width: 300px;
     height: 30px;
     border-radius: 5px;
@@ -140,14 +143,7 @@ button:hover{
     color: rgba(0, 0, 0, 0.616);
 }
 
-button a{
-    text-decoration: none;
-    color: #ffffff;
-}
 
-button a:hover{
-    color: #090c0f;
-}
 
 footer{
     display: flex;
@@ -155,7 +151,7 @@ footer{
     align-items: center;
     text-align: center;
     height: 100px;
-    margin: 20px;
+    margin: 0px;
     background-color: #090c0f;
     width: 100%;
 }
@@ -168,7 +164,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 10px;
+    margin: 0px;
     background-color:#171d25;
     overflow-inline: hidden;
     width: 100%;
@@ -176,7 +172,7 @@ footer{
 
     .logo{
         width: 150px;
-        padding-left: 10px;
+        margin-left: auto;
     }
 
     header{

@@ -73,6 +73,10 @@ li a:hover{
     width: 672px;
 }
 
+img{
+    border-radius: 12px;
+}
+
 .imgGrande{
     width: 497px;
 }
@@ -138,6 +142,7 @@ p{
 button{
     background-color: rgb(33, 160, 29);
     color: white;
+    border: none;
     width: 300px;
     height: 30px;
     border-radius: 5px;
@@ -168,7 +173,7 @@ footer{
     align-items: center;
     text-align: center;
     height: 100px;
-    margin: 20px;
+    margin: 0px;
     background-color: #090c0f;
     width: 100%;
 }
@@ -177,7 +182,7 @@ footer{
     body{
     display: block;
     flex-direction: column;
-    margin: 10px;
+    margin: 0px;
     background-color:#171d25;
     overflow-inline: hidden;
     width: 100%;
@@ -191,16 +196,16 @@ footer{
     header{
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: auto;
     margin: 0px;
-    column-gap: 70px;
     background-color: rgba(0, 0, 0, 0.616);
-    justify-content: center;
-    width: 100vh;
+    justify-content: space-between;
+    width: 100%;
     }
 
     .menu .menu-faketrigger{
-        position: absolute;
+        margin: auto;
+        justify-self: end;
         z-index: 1000;
         width: 35px;
         height: 35px;
@@ -210,20 +215,24 @@ footer{
     }
 
     .menu .menu-lines{
-        position: absolute;
+        justify-self: end;
         z-index: 999;
         width: 35px;
         height: 35px;
+        margin: auto;
     }
 
     .menu .menu-lines span{
-        display: block;
+        display: flex;
         width: 35px;
         height: 5px;
         margin-bottom: 10px;
         background-color: #ffffff;
         border-radius: 3px;
         transition: all ease .2s;
+        justify-self: end;
+        align-self: flex-end;
+        margin-right: auto;
     }
 
     .menu .menu-faketrigger:checked~.menu-lines span{
@@ -294,14 +303,15 @@ footer{
     main{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
     }
 
     .Quadro-grandeA{
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    padding-bottom: 0px;
 }
 
 .preco{
@@ -311,17 +321,11 @@ footer{
     padding-bottom: 30px;
 }
 
-
 .Quadrinhos{
     display: flex;
     flex-direction: column;
     padding: 10px;
-    column-gap: 15px;
-}
-
-.Quadros{
-    display: flex;
-    flex-direction: column;
+    column-gap: 0px;
 }
 
 .quadrosA{
@@ -336,6 +340,10 @@ footer{
 
 h2{
     padding: 5px;
+}
+
+.comprar{
+    display: none;
 }
 
 }
