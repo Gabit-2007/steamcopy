@@ -150,7 +150,7 @@ footer{
     body{
     display: block;
     flex-direction: column;
-    margin: 10px;
+    margin: 0px;
     background-color:#171d25;
     overflow-inline: hidden;
     width: 100%;
@@ -169,8 +169,17 @@ footer{
     column-gap: 70px;
     background-color: rgba(0, 0, 0, 0.616);
     justify-content: center;
-    width: 100vh;
+    width: 100%;
     }
+
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 30px;
+    margin: auto;
+}
 
     .menu .menu-faketrigger{
         position: absolute;
@@ -248,6 +257,7 @@ footer{
 
     .secao{
         display: block;
+        margin: 0px;
     }
 
     .secao ol{
