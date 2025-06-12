@@ -196,12 +196,21 @@ footer{
     header{
     display: flex;
     align-items: center;
-    padding: auto;
+    padding: 0px;
     margin: 0px;
     background-color: rgba(0, 0, 0, 0.616);
     justify-content: space-between;
     width: 100%;
     }
+
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    column-gap: 30px;
+    margin: auto;
+}
 
     .menu .menu-faketrigger{
         margin: auto;
@@ -215,7 +224,6 @@ footer{
     }
 
     .menu .menu-lines{
-        justify-self: end;
         z-index: 999;
         width: 35px;
         height: 35px;
@@ -230,8 +238,6 @@ footer{
         background-color: #ffffff;
         border-radius: 3px;
         transition: all ease .2s;
-        justify-self: end;
-        align-self: flex-end;
         margin-right: auto;
     }
 
@@ -271,7 +277,6 @@ footer{
         height: 300px;
         display: block;
         padding-top: 80px;
-        
     }
     
     ul a{
@@ -284,26 +289,29 @@ footer{
     color:#ffffff;
     }
 
-    img{
-        width: 459px;
-    }
-
-    .GTA{
-        width: 459px;
-    }
-
-    .imgGrande{
-        width: 459px;
-    }
-
-    .imgPequena{
-        width: 459px;
-    }
-
     main{
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
+
+    img{
+        border-radius: 12px;
+        width: 90%;
+    }
+
+    .GTA{
+        width: 90%;
+    }
+
+    .imgGrande{
+        width: 90%;
+    }
+
+    .imgPequena{
+        width: 90%;
+    }
+
 
     .Quadro-grandeA{
     display: flex;
